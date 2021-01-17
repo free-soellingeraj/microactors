@@ -14,7 +14,7 @@ import pandas as pd
 import os 
 WRITE_KEY = os.environ.get('WRITE_KEY')          # <-- You need to add a Github secret
 ANIMAL = MicroWriter.animal_from_key(WRITE_KEY)  # <-- Your nom de plume      
-REPO = 'https://github.com/microprediction/microactors/blob/master/fit.py' # <--- Change your username
+REPO = 'https://github.com/free-soellingeraj/microactors/blob/master/fit.py' # <--- Change your username
 print('This is '+ANIMAL+' firing up')
 
 STOP_LOSS = 25 # <--- Governs when we give up on a stream/horizon
